@@ -23,8 +23,3 @@ tasks = [
 for task in tasks:
     st.write(f"- {task}")
 
-
-    This app is for demonstration purposes. The models used may not reflect the most current or advanced versions available.
-
-    Enjoy exploring the world of Machine Learning!
-""")
