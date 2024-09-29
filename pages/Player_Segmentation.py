@@ -2,8 +2,9 @@ import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
 import numpy as np
-import cv2
 from sklearn.cluster import KMeans
+import cv2
+
 
 st.title("Football Player Segmentation")
 
