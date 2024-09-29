@@ -26,7 +26,7 @@ def determine_team_color(img, mask):
         return "team_b"
     else:
         return "unknown"
-def apply_masks_onimage(img, masks, results):
+def apply_masks_on_image(img, masks, results):
     img = np.array(img)
     height, width,  = img.shape
     overlay = np.zeros_like(img, dtype=np.uint8)
