@@ -6,10 +6,6 @@ st.set_page_config(page_title="Multi-Task DL App", layout="wide", page_icon="ğŸ¤
 # Main page content
 st.title("Welcome to the Multi-Task Deep Learning App ğŸš€")
 
-# Sidebar
-st.sidebar.title("Navigation")
-st.sidebar.success("Select a task above.")
-
 # Main page content
 st.header("Available Tasks:")
 tasks = [
