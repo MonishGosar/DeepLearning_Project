@@ -11,7 +11,7 @@ def load_tokenizer(tokenizer_path):
     return tokenizer
 
 # Load the model
-st.cache_resource
+@st.cache_resource
 def load_model(model_path):
     model = tf.keras.models.load_model(model_path)
     return model
